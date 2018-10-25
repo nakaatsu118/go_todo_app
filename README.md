@@ -3,6 +3,7 @@ CUI操作でのTODO管理アプリです。
 
 # go_todo
 サーバー側です。docker-composeで立ち上げできます。
+※CUI操作とサーバー側を分けていなかった名残でゴミがだいぶ残っています、、、
 
 # todoApp.go
 CUIアプリ側です。
