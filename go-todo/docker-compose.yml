@@ -1,0 +1,16 @@
+version: '3'
+services:
+    mysql:
+        build: ./mysql
+        restart: always
+        ports:
+            - "3306"
+    todo:
+        build: .
+        restart: always
+        privileged: true
+        ports:
+            - "9999:1192"
+        links:
+            - mysql
+
